@@ -1,16 +1,13 @@
 def solution(name, yearning, photo):
     answer = []
-    for i in photo :
+    for i in photo:
         score = 0
-        for j in i :
+        for j in i:
             k = 0
-            for t in name :
-                if j == t :
+            for n in name:
+                if j == n:
                     score += yearning[k]
                 k += 1
-            
-
-        answer.append(score)       
-                    
-
+        answer.append(score)
+                
     return answer
