@@ -1,7 +1,7 @@
 def solution(array, commands):
     answer = []
     for i in range(len(commands)):
-        n = commands[i][0]
+        n = commands[i][0]   # 2차원 배열 
         j = commands[i][1]
         k = commands[i][2]
         
