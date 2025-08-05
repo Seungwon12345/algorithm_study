@@ -1,8 +1,8 @@
+
 def solution(brown, yellow):
-    answer = []
     area = brown + yellow
     
-    for h in range(1, int(area**0.5)+1):
+    for h in range(1, int(area**0.5)+1):  # 넓이가 9와 같이 제곱수 인 경우
         if area % h == 0:
             w = area // h
             
